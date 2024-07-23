@@ -10801,3 +10801,16 @@ header.masthead .post-heading .meta a {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     font-size: 3rem;
 }
+
+.form-inline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
